@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		00A95FA82FA095E0001E1120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A95F862FA095DD001E1120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A95F8D2FA095DD001E1120;
+			remoteInfo = SubscriptionBox;
+		};
+		00A95FB22FA095E0001E1120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A95F862FA095DD001E1120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A95F8D2FA095DD001E1120;
+			remoteInfo = SubscriptionBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A95F8E2FA095DD001E1120 /* SubscriptionBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscriptionBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A95FA72FA095E0001E1120 /* SubscriptionBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubscriptionBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A95FB12FA095E0001E1120 /* SubscriptionBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubscriptionBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		00A95FB92FA095E0001E1120 /* Exceptions for "SubscriptionBox" folder in "SubscriptionBox" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 00A95F8D2FA095DD001E1120 /* SubscriptionBox */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		00A95F902FA095DD001E1120 /* SubscriptionBox */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				00A95FB92FA095E0001E1120 /* Exceptions for "SubscriptionBox" folder in "SubscriptionBox" target */,
+			);
+			path = SubscriptionBox;
+			sourceTree = "<group>";
+		};
+		00A95FAA2FA095E0001E1120 /* SubscriptionBoxTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SubscriptionBoxTests;
+			sourceTree = "<group>";
+		};
+		00A95FB42FA095E0001E1120 /* SubscriptionBoxUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SubscriptionBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A95F8B2FA095DD001E1120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A95FA42FA095E0001E1120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A95FAE2FA095E0001E1120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A95F852FA095DD001E1120 = {
+			isa = PBXGroup;
+			children = (
+				00A95F902FA095DD001E1120 /* SubscriptionBox */,
+				00A95FAA2FA095E0001E1120 /* SubscriptionBoxTests */,
+				00A95FB42FA095E0001E1120 /* SubscriptionBoxUITests */,
+				00A95F8F2FA095DD001E1120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A95F8F2FA095DD001E1120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A95F8E2FA095DD001E1120 /* SubscriptionBox.app */,
+				00A95FA72FA095E0001E1120 /* SubscriptionBoxTests.xctest */,
+				00A95FB12FA095E0001E1120 /* SubscriptionBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A95F8D2FA095DD001E1120 /* SubscriptionBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A95FBA2FA095E0001E1120 /* Build configuration list for PBXNativeTarget "SubscriptionBox" */;
+			buildPhases = (
+				00A95F8A2FA095DD001E1120 /* Sources */,
+				00A95F8B2FA095DD001E1120 /* Frameworks */,
+				00A95F8C2FA095DD001E1120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				00A95F902FA095DD001E1120 /* SubscriptionBox */,
+			);
+			name = SubscriptionBox;
+			packageProductDependencies = (
+			);
+			productName = SubscriptionBox;
+			productReference = 00A95F8E2FA095DD001E1120 /* SubscriptionBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A95FA62FA095E0001E1120 /* SubscriptionBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A95FBF2FA095E0001E1120 /* Build configuration list for PBXNativeTarget "SubscriptionBoxTests" */;
+			buildPhases = (
+				00A95FA32FA095E0001E1120 /* Sources */,
+				00A95FA42FA095E0001E1120 /* Frameworks */,
+				00A95FA52FA095E0001E1120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A95FA92FA095E0001E1120 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				00A95FAA2FA095E0001E1120 /* SubscriptionBoxTests */,
+			);
+			name = SubscriptionBoxTests;
+			packageProductDependencies = (
+			);
+			productName = SubscriptionBoxTests;
+			productReference = 00A95FA72FA095E0001E1120 /* SubscriptionBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00A95FB02FA095E0001E1120 /* SubscriptionBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A95FC22FA095E0001E1120 /* Build configuration list for PBXNativeTarget "SubscriptionBoxUITests" */;
+			buildPhases = (
+				00A95FAD2FA095E0001E1120 /* Sources */,
+				00A95FAE2FA095E0001E1120 /* Frameworks */,
+				00A95FAF2FA095E0001E1120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A95FB32FA095E0001E1120 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				00A95FB42FA095E0001E1120 /* SubscriptionBoxUITests */,
+			);
+			name = SubscriptionBoxUITests;
+			packageProductDependencies = (
+			);
+			productName = SubscriptionBoxUITests;
+			productReference = 00A95FB12FA095E0001E1120 /* SubscriptionBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A95F862FA095DD001E1120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					00A95F8D2FA095DD001E1120 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					00A95FA62FA095E0001E1120 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 00A95F8D2FA095DD001E1120;
+					};
+					00A95FB02FA095E0001E1120 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 00A95F8D2FA095DD001E1120;
+					};
+				};
+			};
+			buildConfigurationList = 00A95F892FA095DD001E1120 /* Build configuration list for PBXProject "SubscriptionBox" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A95F852FA095DD001E1120;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 00A95F8F2FA095DD001E1120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A95F8D2FA095DD001E1120 /* SubscriptionBox */,
+				00A95FA62FA095E0001E1120 /* SubscriptionBoxTests */,
+				00A95FB02FA095E0001E1120 /* SubscriptionBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A95F8C2FA095DD001E1120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A95FA52FA095E0001E1120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A95FAF2FA095E0001E1120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A95F8A2FA095DD001E1120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A95FA32FA095E0001E1120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A95FAD2FA095E0001E1120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A95FA92FA095E0001E1120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A95F8D2FA095DD001E1120 /* SubscriptionBox */;
+			targetProxy = 00A95FA82FA095E0001E1120 /* PBXContainerItemProxy */;
+		};
+		00A95FB32FA095E0001E1120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A95F8D2FA095DD001E1120 /* SubscriptionBox */;
+			targetProxy = 00A95FB22FA095E0001E1120 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A95FBB2FA095E0001E1120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubscriptionBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.SubscriptionBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A95FBC2FA095E0001E1120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubscriptionBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.SubscriptionBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00A95FBD2FA095E0001E1120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A95FBE2FA095E0001E1120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A95FC02FA095E0001E1120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.SubscriptionBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubscriptionBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubscriptionBox";
+			};
+			name = Debug;
+		};
+		00A95FC12FA095E0001E1120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.SubscriptionBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SubscriptionBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SubscriptionBox";
+			};
+			name = Release;
+		};
+		00A95FC32FA095E0001E1120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.SubscriptionBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SubscriptionBox;
+			};
+			name = Debug;
+		};
+		00A95FC42FA095E0001E1120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.SubscriptionBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SubscriptionBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A95F892FA095DD001E1120 /* Build configuration list for PBXProject "SubscriptionBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A95FBD2FA095E0001E1120 /* Debug */,
+				00A95FBE2FA095E0001E1120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A95FBA2FA095E0001E1120 /* Build configuration list for PBXNativeTarget "SubscriptionBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A95FBB2FA095E0001E1120 /* Debug */,
+				00A95FBC2FA095E0001E1120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A95FBF2FA095E0001E1120 /* Build configuration list for PBXNativeTarget "SubscriptionBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A95FC02FA095E0001E1120 /* Debug */,
+				00A95FC12FA095E0001E1120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A95FC22FA095E0001E1120 /* Build configuration list for PBXNativeTarget "SubscriptionBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A95FC32FA095E0001E1120 /* Debug */,
+				00A95FC42FA095E0001E1120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A95F862FA095DD001E1120 /* Project object */;
+}
