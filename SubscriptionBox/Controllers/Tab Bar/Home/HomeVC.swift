@@ -2,17 +2,14 @@
 /********** Developed by Drudots Technology **********/
 /******** https://www.drudotstech.com **********/
 //
+
+class HomeVC: UIViewController {
+    //MARK: - OUTLETS
+    @IBOutlet weak var homeTableView: UITableView!
     
-
-import UIKit
-
-class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupTableView()
+        registerNibs()
     }
-
-
 }
-

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTVuCell" rowHeight="61" id="KGk-i7-Jjw" customClass="SearchTVuCell" customModule="SubscriptionBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BaG-mF-l7j" customClass="DesignableView" customModule="SubscriptionBox" customModuleProvider="target">
+                        <rect key="frame" x="10" y="0.0" width="315" height="45"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hqM-Wq-9HF">
+                                <rect key="frame" x="8" y="2.6666666666666679" width="30" height="39.666666666666657"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="KdG-Zi-jzc"/>
+                                </constraints>
+                                <imageReference key="image" image="magnifyingglass" catalog="system" symbolScale="small"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Services" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zKM-DC-ER7">
+                                <rect key="frame" x="38" y="0.0" width="239" height="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H49-PZ-uCo">
+                                <rect key="frame" x="277" y="0.0" width="30" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="rav-FN-Suj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="line.3.horizontal.decrease" catalog="system">
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="H49-PZ-uCo" secondAttribute="bottom" id="9Kc-I1-HO3"/>
+                            <constraint firstItem="zKM-DC-ER7" firstAttribute="top" secondItem="BaG-mF-l7j" secondAttribute="top" id="9zq-3E-JPG"/>
+                            <constraint firstAttribute="height" constant="45" id="IHw-tg-Eg6"/>
+                            <constraint firstAttribute="trailing" secondItem="H49-PZ-uCo" secondAttribute="trailing" constant="8" id="KBv-An-hDL"/>
+                            <constraint firstItem="zKM-DC-ER7" firstAttribute="leading" secondItem="hqM-Wq-9HF" secondAttribute="trailing" id="a3J-dn-Ar3"/>
+                            <constraint firstItem="hqM-Wq-9HF" firstAttribute="leading" secondItem="BaG-mF-l7j" secondAttribute="leading" constant="8" id="cSK-rc-C9C"/>
+                            <constraint firstAttribute="bottom" secondItem="zKM-DC-ER7" secondAttribute="bottom" id="f2c-Oz-6CA"/>
+                            <constraint firstItem="H49-PZ-uCo" firstAttribute="leading" secondItem="zKM-DC-ER7" secondAttribute="trailing" id="j1F-ch-YER"/>
+                            <constraint firstItem="H49-PZ-uCo" firstAttribute="top" secondItem="BaG-mF-l7j" secondAttribute="top" id="ss1-fe-6LE"/>
+                            <constraint firstAttribute="bottom" secondItem="hqM-Wq-9HF" secondAttribute="bottom" id="x6W-xw-r28"/>
+                            <constraint firstItem="hqM-Wq-9HF" firstAttribute="top" secondItem="BaG-mF-l7j" secondAttribute="top" id="xV7-Yf-6UY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="AllCorner">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.63" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="BaG-mF-l7j" secondAttribute="trailing" constant="10" id="Jan-A0-RJn"/>
+                    <constraint firstItem="BaG-mF-l7j" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="OBy-nv-tXR"/>
+                    <constraint firstItem="BaG-mF-l7j" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ccp-pR-WDn"/>
+                    <constraint firstAttribute="bottom" secondItem="BaG-mF-l7j" secondAttribute="bottom" constant="12" id="pP5-OE-Pe9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="196.18320610687022" y="-6.6901408450704229"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="line.3.horizontal.decrease" catalog="system" width="128" height="73"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+    </resources>
+</document>

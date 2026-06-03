@@ -6,6 +6,49 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		004ABF182FA09A2D00C0BCEE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004ABF152FA09A2D00C0BCEE /* Constants.swift */; };
+		004ABF192FA09A2D00C0BCEE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004ABF162FA09A2D00C0BCEE /* DesignableView.swift */; };
+		004ABF202FA09A3300C0BCEE /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004ABF1D2FA09A3300C0BCEE /* ServicesVC.swift */; };
+		004ABF232FA09A8600C0BCEE /* SearchTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004ABF212FA09A8600C0BCEE /* SearchTVuCell.swift */; };
+		004ABF242FA09A8600C0BCEE /* SearchTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004ABF222FA09A8600C0BCEE /* SearchTVuCell.xib */; };
+		004ABF272FA09BDF00C0BCEE /* ServicesTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004ABF252FA09BDF00C0BCEE /* ServicesTVuCell.swift */; };
+		004ABF282FA09BDF00C0BCEE /* ServicesTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004ABF262FA09BDF00C0BCEE /* ServicesTVuCell.xib */; };
+		004ABF2A2FA09F4D00C0BCEE /* Services+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004ABF292FA09F3F00C0BCEE /* Services+TableView.swift */; };
+		009BB7142FA0CF5700FCDBA6 /* HistoryTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009BB7132FA0CF5700FCDBA6 /* HistoryTVuCell.xib */; };
+		009BB7152FA0CF5700FCDBA6 /* HistoryTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB7122FA0CF5700FCDBA6 /* HistoryTVuCell.swift */; };
+		009BB71A2FA0D43B00FCDBA6 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB7192FA0D43B00FCDBA6 /* ProfileVC.swift */; };
+		009BB7302FA0D8B300FCDBA6 /* LogoTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009BB72A2FA0D8B300FCDBA6 /* LogoTVuCell.xib */; };
+		009BB7312FA0D8B300FCDBA6 /* PaymentRowTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009BB72C2FA0D8B300FCDBA6 /* PaymentRowTVuCell.xib */; };
+		009BB7322FA0D8B300FCDBA6 /* UserInfoTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009BB72E2FA0D8B300FCDBA6 /* UserInfoTVuCell.xib */; };
+		009BB7332FA0D8B300FCDBA6 /* LogoTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB7292FA0D8B300FCDBA6 /* LogoTVuCell.swift */; };
+		009BB7342FA0D8B300FCDBA6 /* PaymentRowTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB72B2FA0D8B300FCDBA6 /* PaymentRowTVuCell.swift */; };
+		009BB7352FA0D8B300FCDBA6 /* UserInfoTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB72D2FA0D8B300FCDBA6 /* UserInfoTVuCell.swift */; };
+		009BB73F2FA0DA1D00FCDBA6 /* PaymentCVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009BB73D2FA0DA1D00FCDBA6 /* PaymentCVuCell.xib */; };
+		009BB7402FA0DA1D00FCDBA6 /* PaymentCVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB73C2FA0DA1D00FCDBA6 /* PaymentCVuCell.swift */; };
+		009BB7442FA0DC5000FCDBA6 /* BillingTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009BB7432FA0DC5000FCDBA6 /* BillingTVuCell.xib */; };
+		009BB7452FA0DC5000FCDBA6 /* BillingTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB7422FA0DC5000FCDBA6 /* BillingTVuCell.swift */; };
+		009BB7482FA0DE8500FCDBA6 /* BillingCycleTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009BB7472FA0DE8500FCDBA6 /* BillingCycleTVuCell.xib */; };
+		009BB7492FA0DE8500FCDBA6 /* BillingCycleTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB7462FA0DE8500FCDBA6 /* BillingCycleTVuCell.swift */; };
+		009BB74C2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009BB74B2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.xib */; };
+		009BB74D2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB74A2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.swift */; };
+		009BB74F2FA0E26300FCDBA6 /* Profile+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BB74E2FA0E26300FCDBA6 /* Profile+TableView.swift */; };
+		00A95FCB2FA0967E001E1120 /* SubscriptionBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A95FC92FA0967E001E1120 /* SubscriptionBoxTests.swift */; };
+		00A95FCF2FA0967E001E1120 /* SubscriptionBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A95FCC2FA0967E001E1120 /* SubscriptionBoxUITests.swift */; };
+		00A95FD02FA0967E001E1120 /* SubscriptionBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A95FCD2FA0967E001E1120 /* SubscriptionBoxUITestsLaunchTests.swift */; };
+		00A95FE22FA09698001E1120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A95FD62FA09698001E1120 /* Assets.xcassets */; };
+		00A95FE32FA09698001E1120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A95FD92FA09698001E1120 /* LaunchScreen.storyboard */; };
+		00A95FE42FA09698001E1120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A95FDB2FA09698001E1120 /* Main.storyboard */; };
+		00A95FE62FA09698001E1120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A95FD22FA09698001E1120 /* AppDelegate.swift */; };
+		00A95FE72FA09698001E1120 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A95FD32FA09698001E1120 /* SceneDelegate.swift */; };
+		00BB1E7C2FA0B42700A020B8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB1E772FA0B42700A020B8 /* HomeVC.swift */; };
+		00BB1E7E2FA0B42700A020B8 /* Home+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB1E782FA0B42700A020B8 /* Home+TableView.swift */; };
+		00BB1E842FA0B49600A020B8 /* GraphTVuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00BB1E832FA0B49600A020B8 /* GraphTVuCell.xib */; };
+		00BB1E852FA0B49600A020B8 /* GraphTVuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB1E822FA0B49600A020B8 /* GraphTVuCell.swift */; };
+		00DFE6652FD016560024D939 /* SubscriptionBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00DFE6622FD016560024D939 /* SubscriptionBox.xcdatamodeld */; };
+		00FD10802FA0C5900040E0F1 /* DiagonalDashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD107F2FA0C5840040E0F1 /* DiagonalDashedView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		00A95FA82FA095E0001E1120 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,41 +67,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004ABF152FA09A2D00C0BCEE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		004ABF162FA09A2D00C0BCEE /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		004ABF1D2FA09A3300C0BCEE /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		004ABF212FA09A8600C0BCEE /* SearchTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTVuCell.swift; sourceTree = "<group>"; };
+		004ABF222FA09A8600C0BCEE /* SearchTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTVuCell.xib; sourceTree = "<group>"; };
+		004ABF252FA09BDF00C0BCEE /* ServicesTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTVuCell.swift; sourceTree = "<group>"; };
+		004ABF262FA09BDF00C0BCEE /* ServicesTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServicesTVuCell.xib; sourceTree = "<group>"; };
+		004ABF292FA09F3F00C0BCEE /* Services+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services+TableView.swift"; sourceTree = "<group>"; };
+		009BB7122FA0CF5700FCDBA6 /* HistoryTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTVuCell.swift; sourceTree = "<group>"; };
+		009BB7132FA0CF5700FCDBA6 /* HistoryTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTVuCell.xib; sourceTree = "<group>"; };
+		009BB7192FA0D43B00FCDBA6 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		009BB7292FA0D8B300FCDBA6 /* LogoTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTVuCell.swift; sourceTree = "<group>"; };
+		009BB72A2FA0D8B300FCDBA6 /* LogoTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoTVuCell.xib; sourceTree = "<group>"; };
+		009BB72B2FA0D8B300FCDBA6 /* PaymentRowTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRowTVuCell.swift; sourceTree = "<group>"; };
+		009BB72C2FA0D8B300FCDBA6 /* PaymentRowTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentRowTVuCell.xib; sourceTree = "<group>"; };
+		009BB72D2FA0D8B300FCDBA6 /* UserInfoTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTVuCell.swift; sourceTree = "<group>"; };
+		009BB72E2FA0D8B300FCDBA6 /* UserInfoTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoTVuCell.xib; sourceTree = "<group>"; };
+		009BB73C2FA0DA1D00FCDBA6 /* PaymentCVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCVuCell.swift; sourceTree = "<group>"; };
+		009BB73D2FA0DA1D00FCDBA6 /* PaymentCVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentCVuCell.xib; sourceTree = "<group>"; };
+		009BB7422FA0DC5000FCDBA6 /* BillingTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingTVuCell.swift; sourceTree = "<group>"; };
+		009BB7432FA0DC5000FCDBA6 /* BillingTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillingTVuCell.xib; sourceTree = "<group>"; };
+		009BB7462FA0DE8500FCDBA6 /* BillingCycleTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingCycleTVuCell.swift; sourceTree = "<group>"; };
+		009BB7472FA0DE8500FCDBA6 /* BillingCycleTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillingCycleTVuCell.xib; sourceTree = "<group>"; };
+		009BB74A2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingMethodTVuCell.swift; sourceTree = "<group>"; };
+		009BB74B2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillingMethodTVuCell.xib; sourceTree = "<group>"; };
+		009BB74E2FA0E26300FCDBA6 /* Profile+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+TableView.swift"; sourceTree = "<group>"; };
 		00A95F8E2FA095DD001E1120 /* SubscriptionBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscriptionBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A95FA72FA095E0001E1120 /* SubscriptionBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubscriptionBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A95FB12FA095E0001E1120 /* SubscriptionBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubscriptionBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A95FC92FA0967E001E1120 /* SubscriptionBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionBoxTests.swift; sourceTree = "<group>"; };
+		00A95FCC2FA0967E001E1120 /* SubscriptionBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionBoxUITests.swift; sourceTree = "<group>"; };
+		00A95FCD2FA0967E001E1120 /* SubscriptionBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00A95FD22FA09698001E1120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A95FD32FA09698001E1120 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00A95FD62FA09698001E1120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A95FD82FA09698001E1120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00A95FDA2FA09698001E1120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A95FDE2FA09698001E1120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00BB1E772FA0B42700A020B8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		00BB1E782FA0B42700A020B8 /* Home+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+TableView.swift"; sourceTree = "<group>"; };
+		00BB1E822FA0B49600A020B8 /* GraphTVuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTVuCell.swift; sourceTree = "<group>"; };
+		00BB1E832FA0B49600A020B8 /* GraphTVuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphTVuCell.xib; sourceTree = "<group>"; };
+		00DFE6642FD016560024D939 /* SubscriptionBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SubscriptionBox.xcdatamodel; sourceTree = "<group>"; };
+		00FD107F2FA0C5840040E0F1 /* DiagonalDashedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalDashedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		00A95FB92FA095E0001E1120 /* Exceptions for "SubscriptionBox" folder in "SubscriptionBox" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 00A95F8D2FA095DD001E1120 /* SubscriptionBox */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		00A95F902FA095DD001E1120 /* SubscriptionBox */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				00A95FB92FA095E0001E1120 /* Exceptions for "SubscriptionBox" folder in "SubscriptionBox" target */,
-			);
-			path = SubscriptionBox;
-			sourceTree = "<group>";
-		};
-		00A95FAA2FA095E0001E1120 /* SubscriptionBoxTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SubscriptionBoxTests;
-			sourceTree = "<group>";
-		};
-		00A95FB42FA095E0001E1120 /* SubscriptionBoxUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SubscriptionBoxUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		00A95F8B2FA095DD001E1120 /* Frameworks */ = {
@@ -85,12 +138,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004ABF172FA09A2D00C0BCEE /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				00FD107F2FA0C5840040E0F1 /* DiagonalDashedView.swift */,
+				004ABF152FA09A2D00C0BCEE /* Constants.swift */,
+				004ABF162FA09A2D00C0BCEE /* DesignableView.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		004ABF1B2FA09A3300C0BCEE /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				004ABF212FA09A8600C0BCEE /* SearchTVuCell.swift */,
+				004ABF222FA09A8600C0BCEE /* SearchTVuCell.xib */,
+				004ABF252FA09BDF00C0BCEE /* ServicesTVuCell.swift */,
+				004ABF262FA09BDF00C0BCEE /* ServicesTVuCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		004ABF1C2FA09A3300C0BCEE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				004ABF1B2FA09A3300C0BCEE /* Table Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		004ABF1E2FA09A3300C0BCEE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				004ABF1C2FA09A3300C0BCEE /* Cells */,
+				004ABF1D2FA09A3300C0BCEE /* ServicesVC.swift */,
+				004ABF292FA09F3F00C0BCEE /* Services+TableView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		004ABF1F2FA09A3300C0BCEE /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				00BB1E792FA0B42700A020B8 /* Home */,
+				004ABF1E2FA09A3300C0BCEE /* Services */,
+				009BB7172FA0D41C00FCDBA6 /* Profile */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		009BB7172FA0D41C00FCDBA6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				009BB71B2FA0D44400FCDBA6 /* Cells */,
+				009BB7192FA0D43B00FCDBA6 /* ProfileVC.swift */,
+				009BB74E2FA0E26300FCDBA6 /* Profile+TableView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		009BB71B2FA0D44400FCDBA6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				009BB73E2FA0DA1D00FCDBA6 /* Collection Cells */,
+				009BB72F2FA0D8B300FCDBA6 /* Table Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		009BB72F2FA0D8B300FCDBA6 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				009BB7292FA0D8B300FCDBA6 /* LogoTVuCell.swift */,
+				009BB72A2FA0D8B300FCDBA6 /* LogoTVuCell.xib */,
+				009BB72D2FA0D8B300FCDBA6 /* UserInfoTVuCell.swift */,
+				009BB72E2FA0D8B300FCDBA6 /* UserInfoTVuCell.xib */,
+				009BB72B2FA0D8B300FCDBA6 /* PaymentRowTVuCell.swift */,
+				009BB72C2FA0D8B300FCDBA6 /* PaymentRowTVuCell.xib */,
+				009BB7422FA0DC5000FCDBA6 /* BillingTVuCell.swift */,
+				009BB7432FA0DC5000FCDBA6 /* BillingTVuCell.xib */,
+				009BB7462FA0DE8500FCDBA6 /* BillingCycleTVuCell.swift */,
+				009BB7472FA0DE8500FCDBA6 /* BillingCycleTVuCell.xib */,
+				009BB74A2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.swift */,
+				009BB74B2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		009BB73E2FA0DA1D00FCDBA6 /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				009BB73C2FA0DA1D00FCDBA6 /* PaymentCVuCell.swift */,
+				009BB73D2FA0DA1D00FCDBA6 /* PaymentCVuCell.xib */,
+			);
+			path = "Collection Cells";
+			sourceTree = "<group>";
+		};
 		00A95F852FA095DD001E1120 = {
 			isa = PBXGroup;
 			children = (
-				00A95F902FA095DD001E1120 /* SubscriptionBox */,
-				00A95FAA2FA095E0001E1120 /* SubscriptionBoxTests */,
-				00A95FB42FA095E0001E1120 /* SubscriptionBoxUITests */,
+				00A95FE02FA09698001E1120 /* SubscriptionBox */,
+				00A95FCA2FA0967E001E1120 /* SubscriptionBoxTests */,
+				00A95FCE2FA0967E001E1120 /* SubscriptionBoxUITests */,
 				00A95F8F2FA095DD001E1120 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +252,116 @@
 				00A95FB12FA095E0001E1120 /* SubscriptionBoxUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		00A95FCA2FA0967E001E1120 /* SubscriptionBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A95FC92FA0967E001E1120 /* SubscriptionBoxTests.swift */,
+			);
+			path = SubscriptionBoxTests;
+			sourceTree = "<group>";
+		};
+		00A95FCE2FA0967E001E1120 /* SubscriptionBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00A95FCC2FA0967E001E1120 /* SubscriptionBoxUITests.swift */,
+				00A95FCD2FA0967E001E1120 /* SubscriptionBoxUITestsLaunchTests.swift */,
+			);
+			path = SubscriptionBoxUITests;
+			sourceTree = "<group>";
+		};
+		00A95FD42FA09698001E1120 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				00A95FD22FA09698001E1120 /* AppDelegate.swift */,
+				00A95FD32FA09698001E1120 /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		00A95FD52FA09698001E1120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				004ABF1F2FA09A3300C0BCEE /* Tab Bar */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		00A95FD72FA09698001E1120 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				00A95FD62FA09698001E1120 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		00A95FDC2FA09698001E1120 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				00A95FD92FA09698001E1120 /* LaunchScreen.storyboard */,
+				00A95FDB2FA09698001E1120 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		00A95FDD2FA09698001E1120 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00A95FD72FA09698001E1120 /* Assets */,
+				00A95FDC2FA09698001E1120 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00A95FE02FA09698001E1120 /* SubscriptionBox */ = {
+			isa = PBXGroup;
+			children = (
+				00A95FD42FA09698001E1120 /* App Delegates */,
+				004ABF172FA09A2D00C0BCEE /* Globals */,
+				00DFE6632FD016560024D939 /* Model */,
+				00A95FDD2FA09698001E1120 /* Views */,
+				00A95FD52FA09698001E1120 /* Controllers */,
+				00A95FDE2FA09698001E1120 /* Info.plist */,
+			);
+			path = SubscriptionBox;
+			sourceTree = "<group>";
+		};
+		00BB1E752FA0B42700A020B8 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00BB1E822FA0B49600A020B8 /* GraphTVuCell.swift */,
+				00BB1E832FA0B49600A020B8 /* GraphTVuCell.xib */,
+				009BB7122FA0CF5700FCDBA6 /* HistoryTVuCell.swift */,
+				009BB7132FA0CF5700FCDBA6 /* HistoryTVuCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		00BB1E762FA0B42700A020B8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00BB1E752FA0B42700A020B8 /* Table Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00BB1E792FA0B42700A020B8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				00BB1E762FA0B42700A020B8 /* Cells */,
+				00BB1E772FA0B42700A020B8 /* HomeVC.swift */,
+				00BB1E782FA0B42700A020B8 /* Home+TableView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		00DFE6632FD016560024D939 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00DFE6622FD016560024D939 /* SubscriptionBox.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +378,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				00A95F902FA095DD001E1120 /* SubscriptionBox */,
 			);
 			name = SubscriptionBox;
 			packageProductDependencies = (
@@ -143,9 +399,6 @@
 			dependencies = (
 				00A95FA92FA095E0001E1120 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				00A95FAA2FA095E0001E1120 /* SubscriptionBoxTests */,
-			);
 			name = SubscriptionBoxTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +418,6 @@
 			);
 			dependencies = (
 				00A95FB32FA095E0001E1120 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				00A95FB42FA095E0001E1120 /* SubscriptionBoxUITests */,
 			);
 			name = SubscriptionBoxUITests;
 			packageProductDependencies = (
@@ -225,6 +475,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A95FE22FA09698001E1120 /* Assets.xcassets in Resources */,
+				009BB7302FA0D8B300FCDBA6 /* LogoTVuCell.xib in Resources */,
+				009BB74C2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.xib in Resources */,
+				009BB73F2FA0DA1D00FCDBA6 /* PaymentCVuCell.xib in Resources */,
+				009BB7312FA0D8B300FCDBA6 /* PaymentRowTVuCell.xib in Resources */,
+				009BB7322FA0D8B300FCDBA6 /* UserInfoTVuCell.xib in Resources */,
+				009BB7482FA0DE8500FCDBA6 /* BillingCycleTVuCell.xib in Resources */,
+				004ABF282FA09BDF00C0BCEE /* ServicesTVuCell.xib in Resources */,
+				00A95FE32FA09698001E1120 /* LaunchScreen.storyboard in Resources */,
+				009BB7442FA0DC5000FCDBA6 /* BillingTVuCell.xib in Resources */,
+				00A95FE42FA09698001E1120 /* Main.storyboard in Resources */,
+				00BB1E842FA0B49600A020B8 /* GraphTVuCell.xib in Resources */,
+				004ABF242FA09A8600C0BCEE /* SearchTVuCell.xib in Resources */,
+				009BB7142FA0CF5700FCDBA6 /* HistoryTVuCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +513,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009BB71A2FA0D43B00FCDBA6 /* ProfileVC.swift in Sources */,
+				00BB1E852FA0B49600A020B8 /* GraphTVuCell.swift in Sources */,
+				009BB74F2FA0E26300FCDBA6 /* Profile+TableView.swift in Sources */,
+				00FD10802FA0C5900040E0F1 /* DiagonalDashedView.swift in Sources */,
+				004ABF2A2FA09F4D00C0BCEE /* Services+TableView.swift in Sources */,
+				00BB1E7C2FA0B42700A020B8 /* HomeVC.swift in Sources */,
+				009BB7152FA0CF5700FCDBA6 /* HistoryTVuCell.swift in Sources */,
+				009BB74D2FA0E1AC00FCDBA6 /* BillingMethodTVuCell.swift in Sources */,
+				00BB1E7E2FA0B42700A020B8 /* Home+TableView.swift in Sources */,
+				004ABF182FA09A2D00C0BCEE /* Constants.swift in Sources */,
+				004ABF192FA09A2D00C0BCEE /* DesignableView.swift in Sources */,
+				00A95FE62FA09698001E1120 /* AppDelegate.swift in Sources */,
+				004ABF272FA09BDF00C0BCEE /* ServicesTVuCell.swift in Sources */,
+				00A95FE72FA09698001E1120 /* SceneDelegate.swift in Sources */,
+				004ABF202FA09A3300C0BCEE /* ServicesVC.swift in Sources */,
+				009BB7332FA0D8B300FCDBA6 /* LogoTVuCell.swift in Sources */,
+				009BB7342FA0D8B300FCDBA6 /* PaymentRowTVuCell.swift in Sources */,
+				009BB7352FA0D8B300FCDBA6 /* UserInfoTVuCell.swift in Sources */,
+				009BB7402FA0DA1D00FCDBA6 /* PaymentCVuCell.swift in Sources */,
+				00DFE6652FD016560024D939 /* SubscriptionBox.xcdatamodeld in Sources */,
+				004ABF232FA09A8600C0BCEE /* SearchTVuCell.swift in Sources */,
+				009BB7492FA0DE8500FCDBA6 /* BillingCycleTVuCell.swift in Sources */,
+				009BB7452FA0DC5000FCDBA6 /* BillingTVuCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A95FCB2FA0967E001E1120 /* SubscriptionBoxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +551,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A95FCF2FA0967E001E1120 /* SubscriptionBoxUITests.swift in Sources */,
+				00A95FD02FA0967E001E1120 /* SubscriptionBoxUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +571,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		00A95FD92FA09698001E1120 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A95FD82FA09698001E1120 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00A95FDB2FA09698001E1120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A95FDA2FA09698001E1120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		00A95FBB2FA095E0001E1120 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -291,11 +600,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SubscriptionBox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Subscription Box";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +613,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.SubscriptionBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,11 +632,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SubscriptionBox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Subscription Box";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +645,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drudotstech.SubscriptionBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,6 +882,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00DFE6622FD016560024D939 /* SubscriptionBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00DFE6642FD016560024D939 /* SubscriptionBox.xcdatamodel */,
+			);
+			currentVersion = 00DFE6642FD016560024D939 /* SubscriptionBox.xcdatamodel */;
+			path = SubscriptionBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 00A95F862FA095DD001E1120 /* Project object */;
 }
